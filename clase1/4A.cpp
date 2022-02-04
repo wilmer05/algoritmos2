@@ -9,9 +9,12 @@ int main() {
 
         cin >> w;
 
-        if(w % 2 == 0) {
-             cout << "YES" << endl;   
-        } else {
+        if(w % 2 == 0 && w > 2) {
+                // En este caso podemos dividir el melon
+                // en dos partes: w - 2 y 2
+                // Entonces debemos responder YES
+                cout << "YES" << endl;   
+        } else { 
                 cout << "NO" << endl;
         }
 
