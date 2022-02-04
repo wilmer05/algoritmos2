@@ -1,5 +1,7 @@
+//incluimos la libreria de IO
 #include<iostream>
 
+// Asi podemos usar el namespace estandar
 using namespace std;
 
 int main() {
