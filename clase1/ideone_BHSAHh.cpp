@@ -41,9 +41,14 @@ int main() {
 	}
 	
 	//Iteracion tipo for en C++
-	for(int i = 0 ; i < 10; i++) {
-		cout << i + 1 << endl;
-	}
+	// for(int i = 0 ; i < 10; i++) {
+	// 	cout << i + 1 << endl;
+	// }
+    int i =0 ;
+    while ( i < 10) {
+        cout << i+1 << endl;
+        i++;
+    }
 	
 	//llamada a una función en C++
 	hola_mundo();
